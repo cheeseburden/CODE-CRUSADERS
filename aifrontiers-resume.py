@@ -1,11 +1,6 @@
 
 from groq import Groq
 from pypdf import PdfReader
-import subprocess
-from reportlab.lib.pagesizes import letter
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
-from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-
 
 client = Groq(api_key="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")
 
