@@ -1,4 +1,6 @@
 pip install groq pypdf reportlab
+export GROQ_API_KEY=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
+
 
 
 from groq import Groq
